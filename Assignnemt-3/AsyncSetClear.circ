@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="5.0.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v5.0.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#FPArithmetic" name="4"/>
+  <lib desc="#Memory" name="5"/>
+  <lib desc="#I/O" name="6"/>
+  <lib desc="#TTL" name="7"/>
+  <lib desc="#TCL" name="8"/>
+  <lib desc="#Base" name="9"/>
+  <lib desc="#BFH-Praktika" name="10"/>
+  <lib desc="#Input/Output-Extra" name="11"/>
+  <lib desc="#Soc" name="12"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool map="Button2" name="Poke Tool"/>
+    <tool map="Button3" name="Menu Tool"/>
+    <tool map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool name="Poke Tool"/>
+    <tool name="Edit Tool"/>
+    <tool name="Wiring Tool"/>
+    <tool name="Text Tool"/>
+    <tool name="Image"/>
+    <sep/>
+    <tool name="Pin"/>
+    <tool name="Pin">
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </tool>
+    <sep/>
+    <tool name="NOT Gate"/>
+    <tool name="AND Gate"/>
+    <tool name="OR Gate"/>
+    <tool name="XOR Gate"/>
+    <tool name="NAND Gate"/>
+    <tool name="NOR Gate"/>
+    <sep/>
+    <tool name="D Flip-Flop"/>
+    <tool name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(100,600)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(770,400)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(770,540)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(90,310)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(90,370)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(90,470)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="1" loc="(140,520)" name="NOT Gate"/>
+    <comp lib="1" loc="(250,380)" name="NAND Gate"/>
+    <comp lib="1" loc="(250,500)" name="NAND Gate"/>
+    <comp lib="1" loc="(380,620)" name="NOT Gate"/>
+    <comp lib="1" loc="(390,510)" name="NAND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(400,370)" name="NAND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(530,520)" name="NAND Gate"/>
+    <comp lib="1" loc="(540,370)" name="NAND Gate"/>
+    <comp lib="1" loc="(690,400)" name="NAND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(690,540)" name="NAND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <wire from="(100,600)" to="(300,600)"/>
+    <wire from="(110,370)" to="(110,520)"/>
+    <wire from="(110,370)" to="(180,370)"/>
+    <wire from="(140,520)" to="(190,520)"/>
+    <wire from="(170,400)" to="(170,470)"/>
+    <wire from="(170,400)" to="(190,400)"/>
+    <wire from="(170,470)" to="(170,480)"/>
+    <wire from="(170,480)" to="(170,570)"/>
+    <wire from="(170,480)" to="(190,480)"/>
+    <wire from="(170,570)" to="(330,570)"/>
+    <wire from="(180,360)" to="(180,370)"/>
+    <wire from="(180,360)" to="(190,360)"/>
+    <wire from="(250,380)" to="(310,380)"/>
+    <wire from="(250,500)" to="(320,500)"/>
+    <wire from="(300,530)" to="(300,600)"/>
+    <wire from="(300,530)" to="(330,530)"/>
+    <wire from="(300,600)" to="(620,600)"/>
+    <wire from="(310,370)" to="(310,380)"/>
+    <wire from="(310,370)" to="(340,370)"/>
+    <wire from="(320,310)" to="(320,350)"/>
+    <wire from="(320,310)" to="(610,310)"/>
+    <wire from="(320,350)" to="(340,350)"/>
+    <wire from="(320,470)" to="(320,490)"/>
+    <wire from="(320,470)" to="(430,470)"/>
+    <wire from="(320,490)" to="(330,490)"/>
+    <wire from="(320,500)" to="(320,510)"/>
+    <wire from="(320,510)" to="(330,510)"/>
+    <wire from="(330,390)" to="(330,410)"/>
+    <wire from="(330,390)" to="(340,390)"/>
+    <wire from="(330,410)" to="(410,410)"/>
+    <wire from="(330,570)" to="(330,620)"/>
+    <wire from="(330,620)" to="(350,620)"/>
+    <wire from="(380,620)" to="(450,620)"/>
+    <wire from="(390,510)" to="(410,510)"/>
+    <wire from="(400,350)" to="(400,370)"/>
+    <wire from="(400,350)" to="(430,350)"/>
+    <wire from="(410,410)" to="(410,510)"/>
+    <wire from="(410,510)" to="(430,510)"/>
+    <wire from="(430,350)" to="(430,470)"/>
+    <wire from="(430,350)" to="(480,350)"/>
+    <wire from="(430,510)" to="(430,540)"/>
+    <wire from="(430,540)" to="(470,540)"/>
+    <wire from="(450,390)" to="(450,500)"/>
+    <wire from="(450,390)" to="(480,390)"/>
+    <wire from="(450,500)" to="(450,620)"/>
+    <wire from="(450,500)" to="(470,500)"/>
+    <wire from="(530,520)" to="(590,520)"/>
+    <wire from="(540,370)" to="(550,370)"/>
+    <wire from="(550,370)" to="(550,400)"/>
+    <wire from="(550,400)" to="(630,400)"/>
+    <wire from="(590,520)" to="(590,540)"/>
+    <wire from="(590,540)" to="(630,540)"/>
+    <wire from="(610,310)" to="(610,380)"/>
+    <wire from="(610,380)" to="(630,380)"/>
+    <wire from="(610,420)" to="(610,440)"/>
+    <wire from="(610,420)" to="(630,420)"/>
+    <wire from="(610,440)" to="(710,440)"/>
+    <wire from="(610,500)" to="(610,520)"/>
+    <wire from="(610,500)" to="(720,500)"/>
+    <wire from="(610,520)" to="(630,520)"/>
+    <wire from="(620,560)" to="(620,600)"/>
+    <wire from="(620,560)" to="(630,560)"/>
+    <wire from="(690,400)" to="(720,400)"/>
+    <wire from="(690,540)" to="(710,540)"/>
+    <wire from="(710,440)" to="(710,540)"/>
+    <wire from="(710,540)" to="(740,540)"/>
+    <wire from="(720,400)" to="(720,500)"/>
+    <wire from="(720,400)" to="(740,400)"/>
+    <wire from="(740,370)" to="(740,400)"/>
+    <wire from="(740,370)" to="(770,370)"/>
+    <wire from="(740,540)" to="(740,560)"/>
+    <wire from="(740,560)" to="(770,560)"/>
+    <wire from="(770,370)" to="(770,400)"/>
+    <wire from="(770,540)" to="(770,560)"/>
+    <wire from="(90,310)" to="(320,310)"/>
+    <wire from="(90,370)" to="(110,370)"/>
+    <wire from="(90,470)" to="(170,470)"/>
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="Async_Set_Clear">
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity DFF_Async is
+    Port (
+        D   : in STD_LOGIC;
+        clk : in STD_LOGIC;
+        set : in STD_LOGIC;
+        clr : in STD_LOGIC;
+        Q   : out STD_LOGIC
+    );
+end DFF_Async;
+
+architecture Behavioral of DFF_Async is
+    signal q_internal : STD_LOGIC := '0';
+begin
+
+    process(clk, set, clr)
+    begin
+        if clr = '1' then
+            q_internal &lt;= '0';
+        elsif set = '1' then
+            q_internal &lt;= '1';
+        elsif rising_edge(clk) then
+            q_internal &lt;= D;
+        end if;
+    end process;
+
+    Q &lt;= q_internal;
+
+end Behavioral;
+</vhdl>
+</project>
